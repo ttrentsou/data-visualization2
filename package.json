@@ -1,6 +1,6 @@
 {
   "name": "data-visualization2",
-  "version": "1.0.0", 
+  "version": "1.0.1",
   "description": "Create a library for building interactive data visualizations using popular charting libraries like D3.js or Chart.js.",
   "main": "./src/index.js",
   "scripts": {
@@ -11,10 +11,13 @@
     "url": ""
   },
   "keywords": [
-    "", 
+    "",
     "",
     ""
   ],
   "author": "ttrentsou",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "websocket-framework": "^1.0.0"
+  }
 }
